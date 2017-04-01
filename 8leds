@@ -1,0 +1,31 @@
+int timer=200;
+int ledPins[]={5,4,0,2,14,12,13,15};
+int pinCount=8;
+
+void setup() {
+  // put your setup code here, to run once:
+  for(int thisPin=0;thisPin<pinCount;thisPin++)
+  {
+    pinMode(ledPins[thisPin],OUTPUT);
+  }
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  if((int)humidity
+  for(int thisPin=0;thisPin<pinCount;thisPin++)
+  {
+    digitalWrite(ledPins[thisPin],HIGH);
+    delay(timer);
+    digitalWrite(ledPins[thisPin],LOW);
+    }
+    
+    for(int thisPin=pinCount-1;thisPin >= 0;thisPin--)
+    {
+      digitalWrite(ledPins[thisPin],HIGH);
+    delay(timer);
+    digitalWrite(ledPins[thisPin],LOW);
+    }
+      
+}
